@@ -45,8 +45,7 @@ sudo systemctl status containerd
 
 4) Install Kubectl, kubelet and kubeadm on all nodes
 
-sudo apt-get update
-apt-transport-https 
+sudo apt-get update 
 sudo apt-get install -y apt-transport-https ca-certificates curl gpg
 
 sudo mkdir -p -m 755 /etc/apt/keyrings
