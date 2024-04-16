@@ -12,6 +12,7 @@ your_ip    k8snode-2
 sudo vi /etc/fstab 
 please comment out a line :
 #/dev/disk/by-id/dm-uuid-LVM-J0ff2PTfIMheCZH1jEKtqFvcxpQV5d63FrPkRV2T3VXNsBwc2qup7hp0DfJtxAMj / ext4 defaults 0 1
+#/swap.img      none    swap    sw      0       0
 
 sudo swapoff -a
 
