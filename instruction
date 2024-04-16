@@ -1,12 +1,12 @@
 1) Set hostname of Each Node
-sudo hostnamectl set-hostname "k8s-master"     // Run this command on master node
-sudo hostnamectl set-hostname "k8s-node-0"     // Run this command on node-0
-sudo hostnamectl set-hostname "k8s-node-1"     // Run this command on node-1
+sudo hostnamectl set-hostname "k8smaster"     // Run this command on master node
+sudo hostnamectl set-hostname "k8snode-1"     // Run this command on node-0
+sudo hostnamectl set-hostname "k8snode-2"     // Run this command on node-1
 
 Add the following entries in /etc/hosts files on each node
-your_ip    k8s-master
-your_ip    k8s-node-0
-your_ip    k8s-node-1
+your_ip    k8smaster
+your_ip    k8snode-1
+your_ip    k8snode-2
 
 2) Disable swap and Add Kernel Modules
 sudo vi /etc/fstab 
